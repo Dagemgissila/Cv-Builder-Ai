@@ -35,6 +35,12 @@ cp .env.example .env
 # Generate the application key
 php artisan key:generate
 
+
+php artisan serve
+
+
+npm run dev
+
 ```
 
 ### Set up your OpenAI API Key
@@ -42,3 +48,5 @@ php artisan key:generate
 ### Open the .env file and add your API key:
 
 CHAT_GPT_KEY=your_openai_api_key_here
+
+change the
